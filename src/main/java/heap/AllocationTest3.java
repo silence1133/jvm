@@ -3,6 +3,7 @@ package heap;
 /**
  * @author Silence 000996
  * @data 17/8/9
+ * -Xms20M -Xmx20M -Xmn10M -XX:SurvivorRatio=8 -XX:+PrintGCDetails -XX:+UseSerialGC -XX:MaxTenuringThreshold=15
  */
 public class AllocationTest3 {
     public static final int _1MB = 1024*1024;
